@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/background_color"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Race Results"
+        android:textSize="40sp"
+        android:textColor="@color/primary_color"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:id="@+id/tv_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1st Place!"
+        android:textSize="36sp"
+        android:textColor="@color/secondary_color"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/text_primary_color"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tv_top_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/text_primary_color"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tv_avg_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@color/text_primary_color"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:id="@+id/tv_coins_earned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:textColor="@color/primary_color"
+        android:textStyle="bold"
+        android:layout_marginBottom="32dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_race_again"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Race Again"
+            android:layout_marginEnd="8dp" />
+        <Button
+            android:id="@+id/btn_return_to_menu"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:text="Menu"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
